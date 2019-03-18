@@ -20,7 +20,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.eldermoraes.helidon.metrics.mp</groupId>
-    <artifactId>helidon-metrics-mp</artifactId>
+    <artifactId>app-mp</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>

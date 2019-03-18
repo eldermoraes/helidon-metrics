@@ -18,6 +18,6 @@ FROM openjdk:8-jre-slim
 
 RUN mkdir /app
 COPY libs /app/libs
-COPY helidon-metrics-mp.jar /app
+COPY app-mp.jar /app
 
-CMD ["java", "-jar", "/app/helidon-metrics-mp.jar"]
+CMD ["java", "-jar", "/app/app-mp.jar"]
