@@ -23,27 +23,21 @@ import javax.inject.Inject;
 import javax.json.Json;
 import javax.json.JsonBuilderFactory;
 import javax.json.JsonObject;
-import javax.ws.rs.Consumes;
 import javax.ws.rs.GET;
-import javax.ws.rs.PUT;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
-import javax.ws.rs.core.Response;
 
 /**
- * A simple JAX-RS resource to greet you. Examples:
+ * A simple JAX-RS resource to get TDCs events. Examples:
  *
- * Get default greeting message:
- * curl -X GET http://localhost:8080/greet
+ * Get all TDCs events:
+ * curl -X GET http://localhost:8080/tdc
  *
- * Get greeting message for Joe:
- * curl -X GET http://localhost:8080/greet/Joe
- *
- * Change greeting
- * curl -X PUT -H "Content-Type: application/json" -d '{"greeting" : "Howdy"}' http://localhost:8080/greet/greeting
- *
+ * Get details of some TDC event:
+ * curl -X GET http://localhost:8080/tdc/eventId
+ **
  * The message is returned as a JSON object.
  */
 @Path("/tdc")
@@ -52,27 +46,9 @@ public class TheDevConfResource {
 
     private static final JsonBuilderFactory JSON = Json.createBuilderFactory(Collections.emptyMap());
 
-    /**
-     * The greeting message provider.
-     */
-    private final TheDevConfProvider theDevConfProvider;
-
     @Inject
     private TheDevConfAPI theDevConfAPI;
 
-    /**
-     * Using constructor injection to get a configuration property.
-     * By default this gets the value from META-INF/microprofile-config
-     *
-     * @param theDevConfProvider the configured greeting message
-     */
-    @Inject
-    public TheDevConfResource(TheDevConfProvider theDevConfProvider) {
-        this.theDevConfProvider = theDevConfProvider;
-    }
-
-
-    @Path("/events")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public JsonObject getEvents(){
@@ -83,63 +59,15 @@ public class TheDevConfResource {
                 .build();
     }
 
-    /**
-     * Return a wordly greeting message.
-     *
-     * @return {@link JsonObject}
-     */
-    @SuppressWarnings("checkstyle:designforextension")
+    @Path("/{eventId}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public JsonObject getDefaultMessage() {
-        return createResponse("World");
-    }
-
-    /**
-     * Return a greeting message using the name that was provided.
-     *
-     * @param name the name to greet
-     * @return {@link JsonObject}
-     */
-    @SuppressWarnings("checkstyle:designforextension")
-    @Path("/{name}")
-    @GET
-    @Produces(MediaType.APPLICATION_JSON)
-    public JsonObject getMessage(@PathParam("name") String name) {
-        return createResponse(name);
-    }
-
-    /**
-     * Set the greeting to use in future messages.
-     *
-     * @param jsonObject JSON containing the new greeting
-     * @return {@link Response}
-     */
-    @SuppressWarnings("checkstyle:designforextension")
-    @Path("/greeting")
-    @PUT
-    @Consumes(MediaType.APPLICATION_JSON)
-    @Produces(MediaType.APPLICATION_JSON)
-    public Response updateGreeting(JsonObject jsonObject) {
-
-        if (!jsonObject.containsKey("greeting")) {
-            JsonObject entity = JSON.createObjectBuilder()
-                    .add("error", "No greeting provided")
-                    .build();
-            return Response.status(Response.Status.BAD_REQUEST).entity(entity).build();
-        }
-
-        String newGreeting = jsonObject.getString("greeting");
-
-        theDevConfProvider.setMessage(newGreeting);
-        return Response.status(Response.Status.NO_CONTENT).build();
-    }
-
-    private JsonObject createResponse(String who) {
-        String msg = String.format("%s %s!", theDevConfProvider.getMessage(), who);
+    public JsonObject getEvent(@PathParam("eventId") int eventId){
+        String response = theDevConfAPI.getEvent(eventId);
 
         return JSON.createObjectBuilder()
-                .add("message", msg)
+                .add("message", response)
                 .build();
     }
+
 }

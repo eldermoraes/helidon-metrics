@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: com.eldermoraes.helidon.metrics.mp.MainTest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.559 sec - in com.eldermoraes.helidon.metrics.mp.MainTest

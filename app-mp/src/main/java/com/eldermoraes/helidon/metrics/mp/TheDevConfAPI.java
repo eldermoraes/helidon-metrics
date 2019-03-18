@@ -52,5 +52,25 @@ public class TheDevConfAPI {
 
         return response;
     }
+
+    public String getEvent(int eventId) {
+        Token token = getToken();
+        Client client = null;
+        String response;
+
+        try {
+            client = ClientBuilder.newClient();
+            WebTarget target = client.target("https://api.globalcode.com.br/v1/publico/evento/" + eventId);
+            response = target.request()
+                    .header("Authorization", token.getTokenType() + " " + token.getAccessToken())
+                    .header("Content-Type", "application/json")
+                    .get(String.class);
+        } finally {
+            if (client != null)
+                client.close();
+        }
+
+        return response;
+    }
 }
 
