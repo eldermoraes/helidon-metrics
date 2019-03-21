@@ -19,7 +19,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.eldermoraes.helidon.metrics</groupId>
+    <groupId>com.eldermoraes.helidon.metrics.se</groupId>
     <artifactId>app-se</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
@@ -28,8 +28,8 @@
     <properties>
         <helidon.version>1.0.1</helidon.version>
         <!-- Default package. Will be overriden by Maven archetype -->
-        <package>io.helidon.examples.quickstart.se</package>
-        <mainClass>io.helidon.examples.quickstart.se.Main</mainClass>
+        <package>com.eldermoraes.helidon.metrics.se</package>
+        <mainClass>com.eldermoraes.helidon.metrics.se.Main</mainClass>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>${maven.compiler.source}</maven.compiler.target>
         <libs.classpath.prefix>libs</libs.classpath.prefix>
@@ -197,6 +197,14 @@
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter-engine</artifactId>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>io.helidon.webserver</groupId>
+            <artifactId>helidon-webserver-jersey</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.helidon.media.jsonb</groupId>
+            <artifactId>helidon-media-jsonb-server</artifactId>
         </dependency>
     </dependencies>
 </project>

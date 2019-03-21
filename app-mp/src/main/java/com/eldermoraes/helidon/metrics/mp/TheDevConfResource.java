@@ -16,6 +16,9 @@
 
 package com.eldermoraes.helidon.metrics.mp;
 
+import org.eclipse.microprofile.metrics.annotation.Metered;
+import org.eclipse.microprofile.metrics.annotation.Timed;
+
 import java.util.Collections;
 
 import javax.enterprise.context.RequestScoped;
@@ -49,16 +52,20 @@ public class TheDevConfResource {
     @Inject
     private TheDevConfAPI theDevConfAPI;
 
+    @Metered(name = "getEvents_metered")
+    @Timed(name = "getEvents_timed")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public JsonObject getEvents(){
-        String response = theDevConfAPI.getEvents();
+    public JsonObject getEventList(){
+        String response = theDevConfAPI.getEventList();
 
         return JSON.createObjectBuilder()
                 .add("message", response)
                 .build();
     }
 
+    @Metered(name = "getEvent_metered")
+    @Timed(name = "getEvent_timed")
     @Path("/{eventId}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)

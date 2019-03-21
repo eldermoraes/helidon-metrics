@@ -1,3 +1,6 @@
-/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/io/helidon/examples/quickstart/se/GreetService.java
-/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/io/helidon/examples/quickstart/se/Main.java
-/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/io/helidon/examples/quickstart/se/package-info.java
+/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/com/eldermoraes/helidon/metrics/se/package-info.java
+/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/com/eldermoraes/helidon/metrics/se/Main.java
+/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/com/eldermoraes/helidon/metrics/se/GreetService.java
+/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/com/eldermoraes/helidon/metrics/se/Token.java
+/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfAPI.java
+/Users/eldermoraes/Developer/git/eldermoraes/helidon-metrics/app-se/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java

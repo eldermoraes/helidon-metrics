@@ -1,2 +1,5 @@
-io/helidon/examples/quickstart/se/GreetService.class
-io/helidon/examples/quickstart/se/Main.class
+com/eldermoraes/helidon/metrics/se/Token.class
+com/eldermoraes/helidon/metrics/se/TheDevConfService.class
+com/eldermoraes/helidon/metrics/se/Main.class
+com/eldermoraes/helidon/metrics/se/GreetService.class
+com/eldermoraes/helidon/metrics/se/TheDevConfAPI.class

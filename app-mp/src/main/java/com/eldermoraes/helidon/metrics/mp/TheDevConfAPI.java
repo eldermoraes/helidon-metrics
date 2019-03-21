@@ -1,15 +1,9 @@
 package com.eldermoraes.helidon.metrics.mp;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.json.Json;
-import javax.json.JsonPointer;
-import javax.json.JsonValue;
-import javax.json.bind.Jsonb;
-import javax.json.bind.JsonbBuilder;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
-import javax.ws.rs.core.Response;
 
 @ApplicationScoped
 public class TheDevConfAPI {
@@ -33,7 +27,7 @@ public class TheDevConfAPI {
         return response;
     }
 
-    public String getEvents() {
+    public String getEventList() {
         Token token = getToken();
         Client client = null;
         String response;

@@ -2,29 +2,94 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b338a745-15b6-4941-b1db-2b270dfadaa0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_common_helidon_common_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_common_helidon_common_configurable_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_common_helidon_common_http_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_common_helidon_common_key_util_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_common_helidon_common_reactive_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_config_helidon_config_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_config_helidon_config_yaml_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_health_helidon_health_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_health_helidon_health_checks_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_media_helidon_media_common_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_media_jsonp_helidon_media_jsonp_common_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_media_jsonp_helidon_media_jsonp_server_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_metrics_helidon_metrics_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_helidon_webserver_helidon_webserver_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_buffer_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_codec_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_common_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_handler_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_resolver_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_netty_netty_transport_4_1_30_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_opentracing_opentracing_api_0_31_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_opentracing_opentracing_noop_0_31_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_opentracing_opentracing_util_0_31_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__io_projectreactor_reactor_core_3_1_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__javax_annotation_javax_annotation_api_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__javax_json_javax_json_api_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_eclipse_microprofile_health_microprofile_health_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_eclipse_microprofile_metrics_microprofile_metrics_api_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_glassfish_javax_json_1_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_opentest4j_opentest4j_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_osgi_org_osgi_annotation_versioning_1_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_reactivestreams_reactive_streams_1_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/libraries/Maven__org_yaml_snakeyaml_1_19.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app-mp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_helidon_media_jsonb_helidon_media_jsonb_common_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_helidon_media_jsonb_helidon_media_jsonb_server_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_helidon_webserver_helidon_webserver_jersey_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_bind_jakarta_json_bind_api_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_json_jakarta_json_api_1_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_inject_javax_inject_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_json_bind_javax_json_bind_api_1_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_validation_validation_api_1_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_ws_rs_javax_ws_rs_api_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_yasson_1_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_external_aopalliance_repackaged_2_5_0_b42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_api_2_5_0_b42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_locator_2_5_0_b42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_hk2_utils_2_5_0_b42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_hk2_osgi_resource_locator_1_0_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_client_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_common_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_core_jersey_server_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jersey_inject_jersey_hk2_2_26.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_22_0_CR2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Token.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-mp/app-mp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/app-mp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfProvider.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/src/test/java/com/eldermoraes/helidon/metrics/mp/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/src/test/resources/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/classes/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/classes/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app-mp/target/app-mp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/app-mp.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/helidon-metrics-mp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/helidon-metrics-mp.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/surefire-reports/TEST-com.eldermoraes.helidon.metrics.mp.MainTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/surefire-reports/com.eldermoraes.helidon.metrics.mp.MainTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/test-classes/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/test-classes/com/eldermoraes/helidon/metrics/mp/MainTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-se.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app-se.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/helidon/examples/quickstart/se/GreetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/GreetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/helidon/examples/quickstart/se/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/helidon/examples/quickstart/se/package-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/package-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/io/helidon/examples/quickstart/se/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/eldermoraes/helidon/metrics/se/MainTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/app-se.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/app-se.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/helidon/examples/quickstart/se/GreetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/io/helidon/examples/quickstart/se/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-io.helidon.examples.quickstart.se.MainTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/io.helidon.examples.quickstart.se.MainTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/io/helidon/examples/quickstart/se/MainTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../helidon-quickstart-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../helidon-quickstart-mp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,16 +101,70 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+            <state relative-caret-position="3105">
+              <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfAPI.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Token.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/GreetService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="720">
+              <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -53,7 +172,11 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Token.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Main.java" />
       </list>
     </option>
   </component>
@@ -66,15 +189,19 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1420" />
+    <option name="width" value="1440" />
     <option name="height" value="857" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -93,20 +220,59 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="helidon-quickstart-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="docker" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helidon-quickstart-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helidon-quickstart-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="se" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helidon-quickstart-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="helidon-quickstart-se" type="b2602c69:ProjectViewProjectNode" />
+              <item name="app-se" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552914124719" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553178964645" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.eldermoraes.helidon.metrics.se" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -132,17 +298,19 @@
       <updated>1552913583107</updated>
       <workItem from="1552913586472" duration="437000" />
       <workItem from="1552918945684" duration="285000" />
+      <workItem from="1553173457036" duration="2464000" />
+      <workItem from="1553177982183" duration="924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="722000" />
+    <option name="totallyTimeSpent" value="4110000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1420" height="857" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="857" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532656" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -161,6 +329,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -170,16 +339,57 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/docker/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="3105">
+          <caret line="207" column="21" selection-start-line="207" selection-start-column="21" selection-end-line="207" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Token.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="30" column="85" selection-start-line="30" selection-start-column="85" selection-end-line="30" selection-end-column="85" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/GreetService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="88" column="51" lean-forward="true" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="98" column="58" selection-start-line="98" selection-start-column="58" selection-end-line="98" selection-end-column="58" />
         </state>
       </provider>
     </entry>

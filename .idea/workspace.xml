@@ -4,26 +4,10 @@
     <list default="true" id="bd1abf24-0f85-4037-adb1-3f56a2de281a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfProvider.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/src/test/java/com/eldermoraes/helidon/metrics/mp/MainTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/src/test/resources/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/classes/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/classes/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfProvider.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app-mp/target/app-mp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/app-mp.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.class" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/classes/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/helidon-metrics-mp.jar" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/helidon-metrics-mp.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app-mp/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/app-mp/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/surefire-reports/TEST-com.eldermoraes.helidon.metrics.mp.MainTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/surefire-reports/com.eldermoraes.helidon.metrics.mp.MainTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/test-classes/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app-mp/target/test-classes/com/eldermoraes/helidon/metrics/mp/MainTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app-se/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app-se/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/helidon-quickstart-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/helidon-quickstart-mp/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -115,7 +99,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1420" height="857" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25689405" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
