@@ -198,6 +198,7 @@
             <artifactId>junit-jupiter-engine</artifactId>
             <scope>test</scope>
         </dependency>
+        <!-- Added to the project-->
         <dependency>
             <groupId>io.helidon.webserver</groupId>
             <artifactId>helidon-webserver-jersey</artifactId>
@@ -205,6 +206,10 @@
         <dependency>
             <groupId>io.helidon.media.jsonb</groupId>
             <artifactId>helidon-media-jsonb-server</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.helidon.media.jackson</groupId>
+            <artifactId>helidon-media-jackson-server</artifactId>
         </dependency>
     </dependencies>
 </project>

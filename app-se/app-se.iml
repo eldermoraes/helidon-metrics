@@ -72,5 +72,10 @@
     <orderEntry type="library" name="Maven: jakarta.json:jakarta.json-api:1.1.5" level="project" />
     <orderEntry type="library" name="Maven: org.glassfish:javax.json:1.1.2" level="project" />
     <orderEntry type="library" name="Maven: javax.json:javax.json-api:1.1.2" level="project" />
+    <orderEntry type="library" name="Maven: io.helidon.media.jackson:helidon-media-jackson-server:1.0.1" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: com.fasterxml.jackson.core:jackson-core:2.9.4" level="project" />
+    <orderEntry type="library" name="Maven: io.helidon.media.jackson:helidon-media-jackson-common:1.0.1" level="project" />
   </component>
 </module>

@@ -1,33 +1,35 @@
 package com.eldermoraes.helidon.metrics.se;
 
-import org.glassfish.jersey.process.internal.RequestScoped;
-
+import javax.json.bind.Jsonb;
+import javax.json.bind.JsonbBuilder;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 
-
-@RequestScoped
 public class TheDevConfAPI {
 
     private static final String AUTH = "Basic NDU2YzY0NjU3MjRkNmY3MjYxNjU3MzdjNjUzODMxNjEzNTMzMzAzNTY0NjMzODYzMzczOTMyNjYzNDMwMzU2NTYxMzc2NTMyOmFiN2FmNTIzYmIyODAzMjk2ZjgxMTMzZjFlMWNkNjk1OTFjMjBkNWFhMWEyMTU0YjEyOWM0YTE4ZDM5Mzk1ZTIyMzNkZjZkM2IxMDAwOTYxOTg0MTMxYzE5NTQ0";
 
     private Token getToken() {
         Client client = null;
-        Token response;
+        String response;
+        Token token = null;
         try{
             client = ClientBuilder.newClient();
             WebTarget target = client.target("https://api.globalcode.com.br/v1/oauth2/token");
             response = target.request()
                     .header("Authorization", AUTH)
                     .header("Content-Type", "application/json")
-                    .get(Token.class);
+                    .get(String.class);
+
+            Jsonb jsonb = JsonbBuilder.create();
+            token = jsonb.fromJson(response, Token.class);
         } finally {
             if (client != null)
                 client.close();
         }
 
-        return response;
+        return token;
     }
 
     public String getEventList() {
