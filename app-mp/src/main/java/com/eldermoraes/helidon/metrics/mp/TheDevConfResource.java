@@ -53,7 +53,6 @@ public class TheDevConfResource {
     @Inject
     private TheDevConfAPI theDevConfAPI;
 
-    @Metered(name = "getEvents_metered")
     @Timed(name = "getEvents_timed")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
@@ -66,7 +65,6 @@ public class TheDevConfResource {
     }
 
     @Metered(name = "getEvent_metered")
-    @Timed(name = "getEvent_timed")
     @Path("/{eventId}")
     @GET
     @Produces(MediaType.APPLICATION_JSON)

@@ -8,7 +8,6 @@ import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 
 @ApplicationScoped
-@Counted
 public class TheDevConfAPI {
     private static final String AUTH = "Basic NDU2YzY0NjU3MjRkNmY3MjYxNjU3MzdjNjUzODMxNjEzNTMzMzAzNTY0NjMzODYzMzczOTMyNjYzNDMwMzU2NTYxMzc2NTMyOmFiN2FmNTIzYmIyODAzMjk2ZjgxMTMzZjFlMWNkNjk1OTFjMjBkNWFhMWEyMTU0YjEyOWM0YTE4ZDM5Mzk1ZTIyMzNkZjZkM2IxMDAwOTYxOTg0MTMxYzE5NTQ0";
 

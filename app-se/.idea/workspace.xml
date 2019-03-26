@@ -5,14 +5,6 @@
       <change beforePath="$PROJECT_DIR$/../app-mp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-mp/target/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-mp/target/app.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/app-se.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/app-se.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/eldermoraes/helidon/metrics/se/TheDevConfService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/eldermoraes/helidon/metrics/se/TheDevConfService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helidon-quickstart-mp/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,7 +176,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553612068478" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553613142631" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -220,12 +212,12 @@
       <workItem from="1553173457036" duration="2464000" />
       <workItem from="1553177982183" duration="1711000" />
       <workItem from="1553189945417" duration="6637000" />
-      <workItem from="1553610987719" duration="854000" />
+      <workItem from="1553610987719" duration="1085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12388000" />
+    <option name="totallyTimeSpent" value="12619000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="857" extended-state="0" />

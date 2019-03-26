@@ -2,17 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a3f6dc7-e6e4-4185-b2b5-4bc0f0575ee6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/app.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/app.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../app-se/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app-se/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-se/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app-se/src/main/java/com/eldermoraes/helidon/metrics/se/TheDevConfService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-se/target/app-se.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../app-se/target/app-se.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-se/target/classes/com/eldermoraes/helidon/metrics/se/TheDevConfService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../app-se/target/classes/com/eldermoraes/helidon/metrics/se/TheDevConfService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-se/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../app-se/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../app-se/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../app-se/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../helidon-quickstart-mp/.idea/workspace.xml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +18,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="48" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="448">
+              <caret line="67" selection-start-line="67" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,7 +31,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,8 +94,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/k8s/app.yaml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java" />
       </list>
     </option>
   </component>
@@ -202,12 +194,12 @@
       <workItem from="1553173371427" duration="2416000" />
       <workItem from="1553177981596" duration="957000" />
       <workItem from="1553189934117" duration="961000" />
-      <workItem from="1553610322421" duration="749000" />
+      <workItem from="1553610322421" duration="819000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22435000" />
+    <option name="totallyTimeSpent" value="22505000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1420" height="857" extended-state="0" />
@@ -343,7 +335,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="8" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -352,8 +344,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/eldermoraes/helidon/metrics/mp/TheDevConfResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="48" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="448">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
