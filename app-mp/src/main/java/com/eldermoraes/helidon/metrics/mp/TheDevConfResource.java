@@ -16,6 +16,7 @@
 
 package com.eldermoraes.helidon.metrics.mp;
 
+import org.eclipse.microprofile.metrics.annotation.Counted;
 import org.eclipse.microprofile.metrics.annotation.Metered;
 import org.eclipse.microprofile.metrics.annotation.Timed;
 

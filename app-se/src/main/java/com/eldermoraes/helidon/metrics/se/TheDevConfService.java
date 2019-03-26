@@ -4,6 +4,7 @@ import io.helidon.webserver.Routing;
 import io.helidon.webserver.ServerRequest;
 import io.helidon.webserver.ServerResponse;
 import io.helidon.webserver.Service;
+import org.eclipse.microprofile.metrics.MetricRegistry;
 
 import javax.json.Json;
 import javax.json.JsonBuilderFactory;
@@ -23,13 +24,17 @@ public class TheDevConfService implements Service {
     }
 
     private void getEvent(ServerRequest serverRequest, ServerResponse serverResponse) {
+        serverRequest.context().get(MetricRegistry.class).ifPresent(reg -> reg.counter("eventCounter").inc());
         String eventId = serverRequest.path().param("eventId");
         sendResponse(serverResponse, THEDEVCONFAPI.getEvent(Integer.parseInt(eventId)));
     }
 
 
     private void getEventList(ServerRequest serverRequest, ServerResponse serverResponse) {
-        sendResponse(serverResponse, THEDEVCONFAPI.getEventList());
+        serverRequest.context().get(MetricRegistry.class)
+                .ifPresent(reg -> reg.timer("eventTimer").time(() ->
+                        sendResponse(serverResponse, THEDEVCONFAPI.getEventList())));
+
     }
 
     private void sendResponse(ServerResponse response, String message) {
