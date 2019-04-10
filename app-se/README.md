@@ -1,7 +1,7 @@
 
 # Helidon Example: quickstart-se
 
-This example implements a simple Hello World REST service.
+This example implements a simple service calling "The Developers Conference" API
 
 ## Prerequisites
 
@@ -29,22 +29,16 @@ mvn package
 ## Start the application
 
 ```
-java -jar target/quickstart-se.jar
+java -jar target/helidon-se.jar
 ```
 
 ## Exercise the application
 
 ```
-curl -X GET http://localhost:8080/greet
-{"message":"Hello World!"}
+curl -X GET http://localhost:8080/tdc
 
 curl -X GET http://localhost:8080/greet/Joe
-{"message":"Hello Joe!"}
 
-curl -X PUT -H "Content-Type: application/json" -d '{"greeting" : "Hola"}' http://localhost:8080/greet/greeting
-
-curl -X GET http://localhost:8080/greet/Jose
-{"message":"Hola Jose!"}
 ```
 
 ## Try health and metrics
@@ -69,13 +63,13 @@ curl -H 'Accept: application/json' -X GET http://localhost:8080/metrics
 ## Build the Docker Image
 
 ```
-docker build -t quickstart-se target
+docker build -t helidon-se target
 ```
 
 ## Start the application with Docker
 
 ```
-docker run --rm -p 8080:8080 quickstart-se:latest
+docker run --rm -p 8080:8080 helidon-se:latest
 ```
 
 Exercise the application as described above

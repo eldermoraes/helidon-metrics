@@ -43,8 +43,8 @@ spec:
     spec:
       containers:
       - name: app-mp
-        image: eldermoraes/app-mp
-        imagePullPolicy: IfNotPresent
+        image: app-mp
+        imagePullPolicy: Never
         ports:
         - containerPort: 8080
 ---
