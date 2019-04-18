@@ -33,13 +33,24 @@ kind: Deployment
 apiVersion: extensions/v1beta1
 metadata:
   name: ${project.artifactId}
+  labels:
+    kube-monkey/enabled: enabled
+    kube-monkey/identifier: app-mp
+    kube-monkey/mtbf: '2'
+    kube-monkey/kill-mode: "fixed-percent"
+    kube-monkey/kill-value: '70'  
 spec:
-  replicas: 1
+  replicas: 15
   template:
     metadata:
       labels:
         app: ${project.artifactId}
         version: v1
+        kube-monkey/enabled: enabled
+        kube-monkey/identifier: app-mp
+        kube-monkey/mtbf: '2'
+        kube-monkey/kill-mode: "fixed-percent"
+        kube-monkey/kill-value: '70'        
     spec:
       containers:
       - name: ${project.artifactId}
