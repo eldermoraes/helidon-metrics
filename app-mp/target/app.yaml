@@ -40,7 +40,7 @@ metadata:
     kube-monkey/kill-mode: "fixed-percent"
     kube-monkey/kill-value: '70'  
 spec:
-  replicas: 15
+  replicas: 30
   template:
     metadata:
       labels:
@@ -54,8 +54,8 @@ spec:
     spec:
       containers:
       - name: app-mp
-        image: app-mp
-        imagePullPolicy: Never
+        image: eldermoraes/app-mp-oke
+        imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
 ---
